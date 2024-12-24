@@ -4875,7 +4875,7 @@ function stimuliloopLoopBegin(stimuliloopLoopScheduler, snapshot) {
     // set up handler to look after randomisation of conditions etc
     stimuliloop = new TrialHandler({
       psychoJS: psychoJS,
-      nReps: 10, method: TrialHandler.Method.RANDOM,
+      nReps: 400, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
       trialList: undefined,
       seed: undefined, name: 'stimuliloop'
